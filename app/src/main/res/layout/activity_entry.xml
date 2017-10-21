@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.canaday.loth.albumoftheday1.EntryActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="0dp"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/entryTitleText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_title_text_1"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_dark"
+                android:textSize="30sp" />
+
+            <Space
+                android:id="@+id/entrySpace9"
+                android:layout_width="match_parent"
+                android:layout_height="5dp" />
+
+            <TextView
+                android:id="@+id/entryTitleText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_title_text_2"
+                android:textAlignment="center" />
+
+            <Space
+                android:id="@+id/entrySpace10"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/entryAlbumText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_album_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryAlbumEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_album_hint"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:id="@+id/entrySpace1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+            android:id="@+id/entryArtistText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/entry_artist_text"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryArtistEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_artist_hint"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:id="@+id/entrySpace2"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entrySongText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_song_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entrySongEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_song_hint"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:id="@+id/entrySpace8"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entryOnewordText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_oneword_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryOnewordEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_oneword_hint"
+                android:inputType="textShortMessage" />
+
+            <Space
+                android:id="@+id/entrySpace3"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entryActivityText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_activity_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryActivityEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_activity_hint"
+                android:inputType="textShortMessage" />
+
+            <Space
+                android:id="@+id/entrySpace4"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entryThoughtsText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_thoughts_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryThoughtsEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_thoughts_hint"
+                android:inputType="textMultiLine"
+                android:singleLine="false" />
+
+            <Space
+                android:id="@+id/entrySpace5"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entryTakeawayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_takeaway_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entryTakeawayEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_takeaway_hint"
+                android:inputType="textShortMessage" />
+
+            <Space
+                android:id="@+id/entrySpace6"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/entrySourceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/entry_source_text"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/entrySourceEnter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/entry_source_hint"
+                android:inputType="textPersonName" />
+
+            <Space
+                android:id="@+id/entrySpace7"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/entrySubmitButton"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_submit"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
